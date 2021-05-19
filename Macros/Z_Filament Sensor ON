@@ -1,0 +1,2 @@
+M950 J4 C"io5.in"               ; Input 4 filament sensor
+M581 P4 T2 S1 R1                ; Filament Sensor P4 triggers  inactive-to-active edge (S1) tigger2.g (T2) only when printing (R1)
