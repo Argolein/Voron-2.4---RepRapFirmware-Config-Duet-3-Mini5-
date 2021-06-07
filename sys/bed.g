@@ -26,6 +26,6 @@ while move.calibration.initial.deviation >= 0.003          ; Perform additional 
 echo "Gantry deviation of " ^ move.calibration.initial.deviation ^ "mm obtained."
 G1 Z8                                                      ; Raise nozzle 8mm to ensure it is above the Z probe trigger height.
 
-
+G28 ; Homing again for accurate Z offset
 
 

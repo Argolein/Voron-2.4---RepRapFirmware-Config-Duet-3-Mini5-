@@ -16,12 +16,15 @@ G1 Y288 F2000
 G90                                 ; back to absolute mode
 
 ;Homing Z
-M913 Z60							; Z Motor current 70%
+M913 Z65							; Z Motor current 70%
 G1 X198 Y287 F3600 ;position of Z swtich
 G1 H1 Z-200 F360 ; move Z down until the switch triggers
 
 ; Z Offset
-G92 Z0.670							; Z position of switch / offset. Lower numbers = higher Z | Higher numbers = lower Z
+;G92 Z0.375							; Z position of switch / offset. Lower numbers = higher Z | Higher numbers = lower Z | PEI Side
+G92 Z0.400							; Z position of switch / offset. Lower numbers = higher Z | Higher numbers = lower Z | PEI Side
+
+
 
 ; Parking Position
 G1 X10 Y10 Z20 F6000	            ; put head over the centre of the bed

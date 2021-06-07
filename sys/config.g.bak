@@ -63,7 +63,7 @@ M915 Y S2 F0 H200 R0		                ; Set y axis Sensitivity  1.8 motors
 
 ; Input Shaper and Accelerometer
 ;M955 P0 C"io4.out+io4.in"
-M593 F46.75 S0.2
+M593 F55.2 S0.2
 ;M593 F19 P4 S0.3 ; experimental 
 
 ; Z-Probe Super PINDA
