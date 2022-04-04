@@ -1,8 +1,6 @@
-;trigger2.g
+;trigger2.g filament sensor
 
 if sensors.gpIn[4].value == 0
-	G4 S10
-	if sensors.gpIn[4].value == 0
 		M226     ; calls pause.g
 
 
