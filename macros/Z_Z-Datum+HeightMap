@@ -1,0 +1,15 @@
+M561
+
+M558 H2 R0.1 F240:120 T6000 A30 S0.0035  	; Klicky Probe
+
+
+M98 P"/macros/clicky/load.g" ; load Clicky Probe
+
+
+G1 X150 Y112 Z10 F6000	
+G30 S-3
+G29
+
+M98 P"/macros/clicky/unload.g" ; unload Clicky Probe
+
+G1 X10 Y10 Z20 F6000

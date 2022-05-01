@@ -1,0 +1,20 @@
+T0 ; Activate Hotend
+
+M291 P"Unloading Filament" S1 T3
+
+;Anti Blob Unloading Sequence
+G1 E5 F1800
+G1 E-6 F1800
+G4 S4 ; wait 4 seconds
+G1 E8 F1800 
+G1 E-120 F1200           ; Retract
+
+
+
+
+
+
+
+
+
+

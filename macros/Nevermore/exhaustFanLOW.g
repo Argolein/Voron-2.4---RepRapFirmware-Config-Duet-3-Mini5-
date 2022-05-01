@@ -1,0 +1,1 @@
+M106 P5 T40 S0.3 L0.3 X0.3 H0                  ; Exhaust fan
